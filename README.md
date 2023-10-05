@@ -9,5 +9,8 @@ View Products
 Purchase Products
 
 # Technologies Used
+HTML5, CSS3, Bootstrap, Font Awesome Icons
 
-HTML5, CSS3, Boostrap, Font Awesome Icons
+# Github Pages Link
+https://felipebarotayahua.github.io/VR-Headset-Website/index.html
+
