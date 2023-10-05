@@ -1,0 +1,85 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+ /* Style for the container */
+ .product-container {
+  display: flex; /* Display items side by side */
+  align-items: center; /* Vertically center items */
+  max-width: 800px; /* Adjust this to your layout */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+}
+
+/* Style for the product image */
+.product-image {
+  max-width: 50%; /* Adjust the image size */
+  height: auto;
+}
+
+/* Style for the product description */
+.product-description {
+  flex: 1; /* Allow the description to take up remaining space */
+  padding: 20px; /* Add spacing around the description */
+  background-color: #f0f0f0; /* Background color for the description */
+}
+
+/* Style for the text in the description */
+.product-text {
+  font-size: 20px;
+  color: #333333;
+}
+
+/* Add this CSS to your stylesheet */
+.carousel-inner img {
+  max-width: 100%;
+  height: auto; /* This ensures that the aspect ratio is maintained */
+}
+
+.carousel-inner {
+  height: 100%; /* Adjust the height as needed */
+}
+
+
+
+/* Apply these styles to your footer element */
+
+footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Vertical and horizontal padding */
+  text-align: center; /* Center-align text */
+  font-size: 16px; /* Font size */
+  font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Style links within the footer */
+footer a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style links on hover */
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
